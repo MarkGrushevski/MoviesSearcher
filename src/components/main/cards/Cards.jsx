@@ -10,7 +10,7 @@ export default function Cards({movies = []}) {
             <Card
               key={movie.id}
               {...movie}
-              poster={`http://image.tmdb.org/t/p/${imageSize}/${movie.poster_path}`}
+              poster={`https://image.tmdb.org/t/p/${imageSize}/${movie.poster_path}`}
             />
           ))
         ) : (<h4>Nothing</h4>)
