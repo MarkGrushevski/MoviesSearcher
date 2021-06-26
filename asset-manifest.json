@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/pet-react-movies/static/css/main.b54bd1ae.chunk.css",
+    "main.js": "/pet-react-movies/static/js/main.5260fc19.chunk.js",
+    "main.js.map": "/pet-react-movies/static/js/main.5260fc19.chunk.js.map",
+    "runtime-main.js": "/pet-react-movies/static/js/runtime-main.c3536444.js",
+    "runtime-main.js.map": "/pet-react-movies/static/js/runtime-main.c3536444.js.map",
+    "static/js/2.b8fb54c4.chunk.js": "/pet-react-movies/static/js/2.b8fb54c4.chunk.js",
+    "static/js/2.b8fb54c4.chunk.js.map": "/pet-react-movies/static/js/2.b8fb54c4.chunk.js.map",
+    "index.html": "/pet-react-movies/index.html",
+    "static/css/main.b54bd1ae.chunk.css.map": "/pet-react-movies/static/css/main.b54bd1ae.chunk.css.map",
+    "static/js/2.b8fb54c4.chunk.js.LICENSE.txt": "/pet-react-movies/static/js/2.b8fb54c4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c3536444.js",
+    "static/js/2.b8fb54c4.chunk.js",
+    "static/css/main.b54bd1ae.chunk.css",
+    "static/js/main.5260fc19.chunk.js"
+  ]
+}

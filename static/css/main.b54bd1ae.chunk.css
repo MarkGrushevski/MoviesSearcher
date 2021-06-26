@@ -1,0 +1,2 @@
+#root{display:flex;min-height:100vh;flex-direction:column;justify-content:space-between}.main{flex:1 0 auto}.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));grid-gap:1rem;gap:1rem}.progress{position:absolute;top:20%;left:0;width:50%;margin-left:25%}
+/*# sourceMappingURL=main.b54bd1ae.chunk.css.map */
