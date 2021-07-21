@@ -5,14 +5,49 @@
     justify-content: space-between;
 }
 
-.main {
+.page-footer {
+    background-color: #00ff00;
+}
+
+.nav {
+    background-color: #00ff00;
+}
+
+.btn {
+    color: #00ff00;
+    background-color: #003b00;
+}
+
+.btn:hover {
+    background-color: #004c00;
+}
+
+main {
     flex: 1 0 auto;
+    background-color: #000000;
+}
+
+#search {
+    color: #00ff00;
+}
+
+#search:focus {
+    color: #000000;
+}
+
+.lang {
+    color: #00ff00;
 }
 
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 1rem;
+}
+
+.card {
+    color: #00ff00;
+    background-color: #003b00;
 }
 
 .progress {

@@ -1,9 +1,9 @@
-export default function Header() {
+export function Header() {
     return (
         <header className="header">
-            <nav className="light-green lighten-1">
+            <nav className="nav">
                 <div className="nav-wrapper container ">
-                    <a href="/" className="brand-logo left">Logo</a>
+                    <a href="/" className="brand-logo left black-text"><b>LOGO</b></a>
                 </div>
             </nav>
         </header>

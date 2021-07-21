@@ -1,4 +1,4 @@
-export default function Preloader() {
+export function Preloader() {
     return (
         <div className="progress">
             <div className="indeterminate"/>

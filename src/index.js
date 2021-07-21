@@ -1,11 +1,17 @@
 import React from "react";
-import {render} from "react-dom";
+import ReactDOM from "react-dom";
 import "./assets/styles/index.scss";
-import App from "./components/App";
+import {App} from "./views/App/index";
+import {Header} from "./shared/components/header/Header";
+import {Footer} from "./shared/components/footer/Footer";
 
-render(
+ReactDOM.render(
     <React.StrictMode>
-        <App/>
+        <Header/>
+        <main>
+            <App/>
+        </main>
+        <Footer/>
     </React.StrictMode>,
     document.getElementById("root")
 );
