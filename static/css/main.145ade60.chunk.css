@@ -1,0 +1,2 @@
+#root{display:flex;min-height:100vh;flex-direction:column;justify-content:space-between}.nav,.page-footer{background-color:#0f0}.btn{color:#0f0;background-color:#003b00}.btn:hover{background-color:#004c00}main{flex:1 0 auto;background-color:#000}#search{color:#0f0}#search:focus{color:#000}.lang{color:#0f0}.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));grid-gap:1rem;gap:1rem}.card{color:#0f0;background-color:#003b00}.progress{position:absolute;top:20%;left:0;width:50%;margin-left:25%}
+/*# sourceMappingURL=main.145ade60.chunk.css.map */
