@@ -1,8 +1,12 @@
-export default function Card({title, release_date, popularity, poster, overview}) {
+import {getPosterPath} from "../../shared/getPosterPath";
+
+export function Card({title, release_date, popularity, poster_path, overview}) {
+    let imagePath = getPosterPath(poster_path);
+    console.log(imagePath);
     return (
-        <div className="card green lighten-1">
+        <div className="card">
             <div className="card-image">
-                <img src={poster} alt=""/>
+                <img src={imagePath} alt=""/>
             </div>
             <div className="card-content ">
                 <h3 className="card-title ">{title}</h3>

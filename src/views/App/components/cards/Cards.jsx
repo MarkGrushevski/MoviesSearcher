@@ -1,16 +1,14 @@
-import Card from "./card/Card";
+import {Card} from "./Card";
 
-export default function Cards({movies = []}) {
-    const imageSize = "w185";
+export function Cards({movies = []}) {
     return (
         <div className="cards container">
             {
                 movies.length ? (
                     movies.map(movie => (
                         <Card
-                            key={movie.id}
                             {...movie}
-                            poster={`https://image.tmdb.org/t/p/${imageSize}/${movie.poster_path}`}
+                            key={movie.id}
                         />
                     ))
                 ) : (<h4>Nothing</h4>)
