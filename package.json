@@ -1,5 +1,5 @@
 {
-  "name": "pet-react-movies",
+  "name": "movies-searcher",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,7 +12,7 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1"
   },
-  "homepage": "https://markgrushevski.github.io/pet-react-movies/",
+  "homepage": "https://markgrushevski.github.io/MoviesSearcher/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
