@@ -2,7 +2,6 @@ import {getPosterPath} from "../../shared/getPosterPath";
 
 export function Card({title, release_date, popularity, poster_path, overview}) {
     let imagePath = getPosterPath(poster_path);
-    console.log(imagePath);
     return (
         <div className="card">
             <div className="card-image">
