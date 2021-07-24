@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/pet-react-movies/static/css/main.145ade60.chunk.css",
-    "main.js": "/pet-react-movies/static/js/main.79eff416.chunk.js",
-    "main.js.map": "/pet-react-movies/static/js/main.79eff416.chunk.js.map",
-    "runtime-main.js": "/pet-react-movies/static/js/runtime-main.c3536444.js",
-    "runtime-main.js.map": "/pet-react-movies/static/js/runtime-main.c3536444.js.map",
-    "static/js/2.80e0f2ea.chunk.js": "/pet-react-movies/static/js/2.80e0f2ea.chunk.js",
-    "static/js/2.80e0f2ea.chunk.js.map": "/pet-react-movies/static/js/2.80e0f2ea.chunk.js.map",
-    "index.html": "/pet-react-movies/index.html",
-    "static/css/main.145ade60.chunk.css.map": "/pet-react-movies/static/css/main.145ade60.chunk.css.map",
-    "static/js/2.80e0f2ea.chunk.js.LICENSE.txt": "/pet-react-movies/static/js/2.80e0f2ea.chunk.js.LICENSE.txt"
+    "main.css": "/MoviesSearcher/static/css/main.145ade60.chunk.css",
+    "main.js": "/MoviesSearcher/static/js/main.3bf72bd5.chunk.js",
+    "main.js.map": "/MoviesSearcher/static/js/main.3bf72bd5.chunk.js.map",
+    "runtime-main.js": "/MoviesSearcher/static/js/runtime-main.428bd8d1.js",
+    "runtime-main.js.map": "/MoviesSearcher/static/js/runtime-main.428bd8d1.js.map",
+    "static/js/2.2227f006.chunk.js": "/MoviesSearcher/static/js/2.2227f006.chunk.js",
+    "static/js/2.2227f006.chunk.js.map": "/MoviesSearcher/static/js/2.2227f006.chunk.js.map",
+    "index.html": "/MoviesSearcher/index.html",
+    "static/css/main.145ade60.chunk.css.map": "/MoviesSearcher/static/css/main.145ade60.chunk.css.map",
+    "static/js/2.2227f006.chunk.js.LICENSE.txt": "/MoviesSearcher/static/js/2.2227f006.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.c3536444.js",
-    "static/js/2.80e0f2ea.chunk.js",
+    "static/js/runtime-main.428bd8d1.js",
+    "static/js/2.2227f006.chunk.js",
     "static/css/main.145ade60.chunk.css",
-    "static/js/main.79eff416.chunk.js"
+    "static/js/main.3bf72bd5.chunk.js"
   ]
 }
