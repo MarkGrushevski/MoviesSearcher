@@ -1,6 +1,6 @@
 import {useState} from "react";
 
-export function Search({searchMovies}) {
+export const Search = ({searchMovies}) => {
     const languages = new Map([
         ["ru-RU", "Русский"],
         ["en-EN", "English"],
@@ -21,8 +21,8 @@ export function Search({searchMovies}) {
             </div>
             <div className="row">
                 {
-                    [...languages].map(([key, lang], index) => (
-                        <label className="col s4 center" key={index}>
+                    [...languages].map(([key, lang]) => (
+                        <label className="col s4 center" key={key}>
                             <input className="with-gap"
                                    name="language"
                                    type="radio"
@@ -40,4 +40,4 @@ export function Search({searchMovies}) {
             </button>
         </div>
     );
-}
+};

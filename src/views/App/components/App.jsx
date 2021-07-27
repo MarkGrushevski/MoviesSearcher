@@ -2,7 +2,7 @@ import {Search} from "./search/Search";
 import {Cards} from "./cards/Cards";
 import {useState} from "react";
 
-export function App() {
+export const App = () => {
     const [movies, setMovies] = useState([]);
     
     const searchMovies = (query, lang) => {
@@ -16,5 +16,5 @@ export function App() {
         <Search searchMovies={searchMovies}/>
         <Cards movies={movies}/>
     </>);
-}
+};
 

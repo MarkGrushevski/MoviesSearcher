@@ -1,6 +1,6 @@
 import {getPosterPath} from "../../shared/getPosterPath";
 
-export function Card({title, release_date, popularity, poster_path, overview}) {
+export const Card = ({title, release_date, popularity, poster_path, overview}) => {
     let imagePath = getPosterPath(poster_path);
     return (
         <div className="card">
@@ -15,4 +15,4 @@ export function Card({title, release_date, popularity, poster_path, overview}) {
             </div>
         </div>
     );
-}
+};

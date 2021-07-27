@@ -1,4 +1,4 @@
-export function Header() {
+export const Header = () => {
     return (
         <header className="header">
             <nav className="nav">
@@ -8,4 +8,4 @@ export function Header() {
             </nav>
         </header>
     );
-}
+};

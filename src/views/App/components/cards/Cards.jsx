@@ -1,6 +1,6 @@
 import {Card} from "./Card";
 
-export function Cards({movies = []}) {
+export const Cards = ({movies = []}) => {
     return (
         <div className="cards container">
             {
@@ -15,4 +15,4 @@ export function Cards({movies = []}) {
             }
         </div>
     );
-}
+};
