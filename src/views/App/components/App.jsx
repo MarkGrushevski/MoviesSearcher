@@ -1,6 +1,7 @@
+import {useState} from "react";
+
 import {Search} from "./search/Search";
 import {Cards} from "./cards/Cards";
-import {useState} from "react";
 
 export const App = () => {
     const [movies, setMovies] = useState([]);
@@ -12,9 +13,11 @@ export const App = () => {
             .catch(e => console.error(e));
     };
     
-    return (<>
-        <Search searchMovies={searchMovies}/>
-        <Cards movies={movies}/>
-    </>);
+    return (
+        <main className="App">
+            <Search searchMovies={searchMovies}/>
+            <Cards movies={movies}/>
+        </main>
+    );
 };
 

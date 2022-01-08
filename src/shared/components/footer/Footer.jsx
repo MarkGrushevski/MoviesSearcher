@@ -1,11 +1,9 @@
 export const Footer = () => {
     return (
-        <footer className="page-footer">
-            <div className="footer-copyright">
-                <div className="container black-text">
-                    © {new Date().getUTCFullYear()} Copyright Text
-                    <a className="text-lighten-4 right black-text" href="/"><b>More Links</b></a>
-                </div>
+        <footer className="footer">
+            <div className="footer__container">
+                <p className="footer__text">{new Date().getUTCFullYear()}</p>
+                <a className="footer__link" href="/">Home</a>
             </div>
         </footer>
     );
